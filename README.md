@@ -17,11 +17,15 @@ converted to a distance vector of shape (10,).
         x_ = x.sum(axis=[1,2])
         y_ = y.sum(axis=[1,2])
         return x_ + y_
-# batchdist wraps a torch module around this callable to compute the full n x n matrix with batched operations (no loops). 
+
+# batchdist wraps a torch module around this callable to compute 
+# the full n x n matrix with batched operations (no loops). 
+
 >>> import batchdist as bd
 >>> batched = bd.BatchDistance(dummy_distance)
 
 # generate data (two batches of 256 samples of dimension [4,3])
+
 >>> x1 = torch.rand(256,4,3)
 >>> x2 = torch.rand(256,4,3)
 
