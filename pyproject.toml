@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "batchdist"
-version = "0.1.0"
+version = "0.1.2"
 description = "A small pytorch package for efficiently running pair-wise operations such as distances on the batch-level."
 license = "BSD-3-Clause"
 readme = "README.md"
