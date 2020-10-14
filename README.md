@@ -29,7 +29,7 @@ converted to a distance vector of shape (10,).
 >>> x1 = torch.rand(256,4,3)
 >>> x2 = torch.rand(256,4,3)
 
->>> out1 = batched(x1, x2)
+>>> out1 = batched(x1, x2) # distance matrix of shape [256,256]
 ```
  
 For more details, consult the included examples.
