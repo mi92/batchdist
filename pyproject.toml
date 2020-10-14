@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "tbd"
+name = "batchdist"
 version = "0.1.0"
 description = "A small pytorch package for efficiently running pair-wise operations such as distances on the batch-level."
 authors = ["mi92 <michael.d.moor@gmail.com>"]
