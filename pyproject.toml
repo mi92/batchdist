@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tbd"
+version = "0.1.0"
+description = "A small pytorch package for efficiently running pair-wise operations such as distances on the batch-level."
+authors = ["mi92 <michael.d.moor@gmail.com>"]
+license = "BSD-3-Clause"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+torch = "^1.6.0"
+unittest = "^0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
