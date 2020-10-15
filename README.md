@@ -36,3 +36,7 @@ converted to a distance vector of shape (10,).
  
 For more details, consult the included examples.
 
+## Installation 
+ 
+```$ pip install batchdist```  
+
