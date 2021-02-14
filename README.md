@@ -37,6 +37,10 @@ converted to a distance vector of shape (10,).
 For more details, consult the included examples.
 
 ## Installation 
+
+With poetry:  
+```$ poetry add batchdist```  
  
-```$ pip install batchdist```  
+With pip:  
+```$ pip install batchdist```   
 
